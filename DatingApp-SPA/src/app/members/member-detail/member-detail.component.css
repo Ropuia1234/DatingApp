@@ -1,0 +1,25 @@
+.img-thumbnail {
+    width: 85%;
+    height: 85%;
+    margin-top: 5%;
+    margin-bottom: 20px;
+    margin-left: 8%;
+    margin-right: 10%;
+}
+
+.card-body {
+    padding: 0 25px;
+}
+
+.crad-footer {
+    padding: 10px 15px;
+    background-color: #fff;
+    border-top: none;
+}
+
+.ngx-gallery {
+    display: inline-block;
+    margin-bottom: 20px;
+  }
+
+
