@@ -1,4 +1,5 @@
 import { BrowserModule, HammerGestureConfig, HAMMER_GESTURE_CONFIG } from '@angular/platform-browser';
+import { TimeagoModule } from 'ngx-timeago';
 import { NgModule } from '@angular/core';
 import { HttpClientModule} from '@angular/common/http';
 import {FormsModule, ReactiveFormsModule} from '@angular/forms';
@@ -10,6 +11,8 @@ import { RouterModule } from '@angular/router';
 import { JwtModule } from '@auth0/angular-jwt';
 import { NgxGalleryModule } from 'ngx-gallery-9';
 import { FileUploadModule } from 'ng2-file-upload';
+
+
 import { AppComponent } from './app.component';
 import { from } from 'rxjs';
 import { NavComponent } from './nav/nav.component';
@@ -58,6 +61,7 @@ export class CustomerHammerConfig extends HammerGestureConfig {
    ],
    imports: [
       BrowserModule,
+      TimeagoModule.forRoot(),
       BrowserAnimationsModule,
       HttpClientModule,
       FormsModule,
